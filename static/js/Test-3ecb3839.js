@@ -1,0 +1,1 @@
+import{d as s,o as c,c as e,az as i}from"./@vue-de80bf49.js";const t={class:"big"},d=i('<div class="child"></div><div class="child"></div><div class="child"></div><div class="child"></div><div class="child"></div>',5),_=[d],v={__name:"Test",setup(a){return s(),(l,o)=>(c(),e("div",t,_))}};export{v as default};

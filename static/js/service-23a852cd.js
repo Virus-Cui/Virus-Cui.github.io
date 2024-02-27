@@ -1,0 +1,1 @@
+import{a as o}from"./axios-4a70c6fc.js";const r="/",h={baseURI:r},a=o.create({baseURL:h.baseURI}),i=(t,e,s)=>{a.get(t).then(c=>{e(c)}).catch(()=>{s()})},I=(t,e,s)=>{o.get(t).then(c=>{e(c)}).catch(()=>{s()})},R=(t,e,s,c)=>{a.post(t,e).then(n=>{s(n)}).catch(n=>{c(n)})},g={GET:i,InternetRequest:I,POST:R};export{g as s};
